@@ -1,0 +1,131 @@
+.atas {
+	position: fixed;
+	top: 0px;left: 0px;right: 0px;
+	line-height: 75px;
+	border-bottom: 1px solid #777;
+	color: #fff;
+	z-index: 5;
+}
+.logoHome {
+	width: 18%;
+	float: left;
+	margin-left: 2.5%;
+}
+.bege {
+	position: absolute;
+	top: 0px;left: 0px;right: 0px;bottom: 0px;
+	background: rgba(0,0,0,0.6);
+}
+.pencarian {
+	float: left;
+	width: 32%;
+	margin-left: 2.5%;
+}
+.pencarian .box {
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 15px;
+	width: 82%;
+}
+.menu {
+	float: right;
+	margin-right: 2.5%;
+}
+.menu li {
+	display: inline-block;
+	padding: 1px 25px;
+	font-size: 15px;
+}
+.menu a {
+	text-decoration: none;
+	color: #fff;
+}
+.menu #cta {
+	background-color: #fff;
+	color: #e74c3c;
+	border-radius: 4px;
+	font-size: 15px;
+}
+
+.container {
+	position: absolute;
+	top: 125px;left: 5%;right: 5%;
+	color: #fff;
+}
+.container h1 {
+	font-family: OBold;
+	font-size: 46px;
+}
+.container h2 {
+	font-family: OLight;
+	font-size: 20px;
+}
+.boxTengah {
+	background-color: #fff;
+	border-radius: 4px;
+}
+.boxTengah .box {
+	border: none;
+	border-radius: 0px;
+	border-bottom: 1px solid #ccc;
+	font-size: 15px;
+	width: 70%;
+}
+.pencarian .box { font-size: 13px; }
+.pencarian .box::-webkit-input-placeholder {
+	color: #fff;
+}
+select.box {
+	width: 100%;
+}
+.option {
+	width: 25%;
+	display: inline-block;
+}
+.boxTengah #search {
+	margin-top: 13px;
+	border-radius: 4px;
+	margin-left: 15px;
+	font-size: 15px;
+}
+
+.bawah {
+	position: absolute;
+	top: 100%;left: 0px;right: 0px;
+}
+
+.bg {
+	z-index: 15;
+}
+.formLogin {
+	display: none;
+	position: absolute;
+	top: 150px;left: 35%;
+	width: 30%;
+	z-index: 15;
+	background-color: #fff;
+	color: #666;
+}
+.formLogin .wrap { 
+	margin: 7% 10% 9% 10%;
+ }
+.formLogin .box {
+	padding: 0px;
+	width: 100%;
+	border-radius: 0px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	height: 55px;
+	font-size: 15px;
+}
+.formLogin .box:focus {
+	border-bottom: 2px solid rgba(203, 0, 25, 0.57);
+}
+.formLogin .bag-tombol {
+	margin: 4px 0px 20px 0px;
+}
+.formLogin .rata-kanan a {
+	text-decoration: none;
+	color: #777;
+}

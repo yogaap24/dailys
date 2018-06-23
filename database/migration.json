@@ -1,0 +1,90 @@
+{
+	"tabel": {
+		"login": [
+			"idlogin int(11)",
+			"email varchar(150)",
+			"password varchar(50)",
+			"added int(11)"
+		],
+		"regis": [
+			"idregis int(11)",
+			"email varchar(150)",
+			"username varchar(150)",
+			"password varchar(50)",
+			"added int(11)"
+		],
+		"profil": [
+			"idprofil int(11)",
+			"name_hotel varchar(250)",
+			"tagline varchar(150)",
+			"description text",
+			"logo varchar(5)",
+			"cover_image varchar(5)",
+			"gallery_image varchar(5)",
+			"email varchar(150)",
+			"phone int(15)",
+			"website varchar(100)",
+			"sosial_networks varchar(100)",
+			"city varchar(50)",
+			"addres varchar(250)",
+			"facility varchar(150)",
+			"room_type varchar(50)",
+			"added int(11)"
+		],
+		"resto": [
+			"idresto int(11)",
+			"name_resto varchar(250)",
+			"tagline varchar(150)",
+			"description text",
+			"logo varchar(5)",
+			"cover_image varchar(5)",
+			"gallery_image varchar(5)",
+			"email varchar(150)",
+			"phone int(15)",
+			"work_hours varchar(50)",
+			"city varchar(50)",
+			"addres varchar(250)",
+			"price int(150)",
+			"food_type varchar(100)",
+			"menu varchar(150)",
+			"capacity int(50)",
+			"facility varchar(150)",
+			"suitable_event varchar(150)",
+			"added int(11)"
+		],
+		"reservasi": [
+			"idreservasi int(11)",
+			"name varchar(150)",
+			"email varchar(150)",
+			"phone int(15)",
+			"capacity int(50)",
+			"booking varchar(50)",
+			"note text",
+			"added int(11)"
+		],
+		"umum": [
+			"idumum int(11)",
+			"username varchar(150)",
+			"password varchar(50)",
+			"added int(11)"
+		]
+	},
+	"atribut": {
+		"primary key": [
+			"login.idlogin",
+			"regis.idregis",
+			"profil.idprofil",
+			"resto.idresto",
+			"reservasi.idreservasi",
+			"umum.idumum"
+		],
+		"unique key": [
+			"login.email", 
+			"regis.email",
+			"profil.email",
+			"resto.email",
+			"reservasi.email"
+		]
+		
+	}
+}
